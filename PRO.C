@@ -1,5 +1,4 @@
-#include<conio.h>
-#include<stdio.h>
+#include<bits/stdc++.h>
 #include<graphics.h>
 void displayMan(int x,int y)
 {
@@ -15,7 +14,7 @@ void displayMan(int x,int y)
 }
 void drawCloud(int z,int y)
 {
-		int r=50;
+		int r=40;
 
 		arc(z,y,45,135,r);
 		arc(z+50,y,45,135,r);
