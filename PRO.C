@@ -30,9 +30,9 @@ void drawCloud(int z,int y)
 
 void main()
 {
-    int gd=DETECT, gm,i,d=0,x=50,y=340,z=50,shouldMove=1;
+    int i,d=0,x=50,y=340,z=50,shouldMove=1;
     int rx,ry;
-    initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
+    initwindow(800,800);
     while(!kbhit())
     {
 	cleardevice();
